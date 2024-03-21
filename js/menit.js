@@ -14,13 +14,11 @@ menit1.innerHTML= "0" + menit;
 menit2.innerHTML= "0" + menit;
 menit3.innerHTML= "0" + menit;
 menit4.innerHTML= "0" + menit;
-menit5.innerHTML= "0" + menit;
 } else {
 menit1.innerHTML= menit;
 menit2.innerHTML= menit;
 menit3.innerHTML= menit;
 menit4.innerHTML= menit;
-menit5.innerHTML= menit;
 }
 
             // -90deg untuk rotate berdiri ke detik 0

@@ -1,0 +1,46 @@
+@import url('./css/jam.css');
+@import url('./css/theme.css');
+
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+}
+
+
+div.buttonList {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+button.btn {
+  margin: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+  width: fit-content;
+  padding: 8px;
+  background: #2d2d2d;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+button:focus, button:active {
+  background: #eee;
+  color: #000;
+  border-radius: 15px;
+}
+div.footer {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+span.footer {
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+}

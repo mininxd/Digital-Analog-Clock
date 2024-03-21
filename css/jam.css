@@ -16,6 +16,7 @@ div.wrapperJam {
   content: ">";
 }
 div#detikEl, div#menitEl, div#jamEl {
+  font-family: system-ui, sans-serif;
   position: relative;
   transition: 0.3s ease;
   font-size: 18px;
@@ -34,6 +35,8 @@ div#detikEl {
   z-index: 3;
   display: flex;
   justify-content: flex-start;
+  font-weight: 300;
+  color: red;
 }
 div#menitEl {
   z-index: 2;
@@ -46,6 +49,7 @@ div#jamEl {
   transform: translateY(-50px);
   display: flex;
   justify-content: flex-start;
+  font-weight: 500;
 }
 
 .detikRot, .menitRot, .jamRot {

@@ -1,1 +1,30 @@
 
+div.iconList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#icon1, #icon2, #icon3, #icon4 {
+  margin: 2px;
+  transition: 0.5s ease-out;
+  background-size: 64px;
+  background-position: center;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #000;
+}
+#icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover {
+  border-radius: 50px;
+}
+#icon1 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4B3BPJUVzHrSUo7v_7XjbTc2PKofkSwxW9NcAPZPVxx1pbJx-aqv97D9z&s=10');
+}
+#icon2 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNvwSRwFV19Dp-CfEMkiobCAZWeolDgmhoA&usqp=CAU');
+}
+#icon3 {
+  background-image: url('https://png.pngtree.com/png-clipart/20220708/ourmid/pngtree-clock-face-no-hands-big-roboto-font-new-png-image_5781616.png');
+}
+#icon4 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmmO81pEMp2W3kGpB6MUXRomcoxydqcAz76Q&usqp=CAU');
+}

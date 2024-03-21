@@ -1,0 +1,61 @@
+div.wrapperJam {
+  height: 256px;
+  width: 256px;
+  padding: 10px;
+  border: 1px solid #000;
+/*
+  border-radius: 100%;
+*/
+  background-position: center;
+  background-size: 285px;
+  background-repeat: no-repeat;
+}
+
+div#detikEl, div#menitEl, div#jamEl {
+  position: relative;
+  transition: 0.3s ease;
+  font-size: 18px;
+  line-height: 25px;
+  vertical-align: middle;
+  top: 45%;
+  width: 100%;
+  height: fit-content;
+}
+
+div#detikEl {
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+div#menitEl {
+  z-index: 2;
+  transform: translateY(-25px);
+  display: flex;
+  justify-content: flex-end;
+}
+div#jamEl {
+  z-index: 1;
+  transform: translateY(-50px);
+  display: flex;
+  justify-content: center;
+}
+
+.detikRot, .menitRot, .jamRot {
+  padding-left: 4px;
+}
+
+div.dot {
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  position: relative;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  opacity: 0;
+}
+
+span.spacingJam {
+  opacity: 0;
+}

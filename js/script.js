@@ -10,7 +10,7 @@ $('.dot').css('opacity','1');
    menitFun();
    jamFun();
    rotatingTextFun();
-}, 1000);
+}, 100);
 
 icon1.addEventListener('click', function() {
   theme1Fun();
